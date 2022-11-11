@@ -1,7 +1,7 @@
 # durable-objects-io-benchmark
 
 A suite of tools to benchmark io performance characteristics of [Cloudflare's
-Durable Objects platform].
+Durable Objects platform][durable-objects].
 
 ## Why?
 
