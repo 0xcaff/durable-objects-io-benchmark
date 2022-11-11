@@ -1,0 +1,12 @@
+name = "durable-objects-io-benchmark"
+main = "src/index.ts"
+compatibility_date = "2022-11-11"
+
+[durable_objects]
+bindings = [
+    { name = "BENCHMARK_OBJECT", class_name = "BenchmarkDurableObject" } # Binding to our DurableObjectExample class
+]
+
+[[migrations]]
+tag = "v1"
+new_classes = ["BenchmarkDurableObject"]
